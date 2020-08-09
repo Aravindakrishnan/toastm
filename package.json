@@ -1,6 +1,6 @@
 {
   "name": "toastm",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Add Awesome Simple Toast Message on your website",
   "main": "toastm.js",
   "scripts": {

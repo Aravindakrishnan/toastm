@@ -14,9 +14,9 @@ let body = document.body;
 toastm.className = "toastm";
 function addPosition(position) {
   if (position == "left") {
-    toastm.style.left = "0";
+    toastm.style.left = "12px";
   } else if (position == "right") {
-    toastm.style.right = "0";
+    toastm.style.right = "12px";
   } else if (position == "center") {
     toastm.style.top = "0";
     toastm.style.right = "0";

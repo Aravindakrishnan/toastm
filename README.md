@@ -1,36 +1,48 @@
 # What is Toastm ? 🤔
 
-    It is Just a Package for Toast / Notification Message 📜
+    It's Just a Package for Popup Toast / Notification Message 📜
 
 # Installation ⚙️
 
-    ```
-        npm install toastm
-    ```
+```cmd
+  npm install toastm
+```
 
 # How to Use toastm 🤔
 
-    ```javascript
+### index.html
 
-    import { addToastm } from "./node_modules/toastm/toastm.js";
+```html
+<head>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <script type="module" src="yourfilename.js"></script>
+</body>
+```
 
+### yourfilename.js
 
-    addToastm({
-        color: "primary",
-        position:"center",
-        text:"Toastm notification box 😄"
-    })
+```javascript
+import { addToastm } from "./node_modules/toastm/toastm.js";
 
-    ```
+addToastm({
+  color: "primary",
+  position: "center",
+  text: "Toastm notification box 😄",
+});
+```
 
-    ```css
+### style.css
 
-    @import "./node_modules/toastm/style.css"
-
-    ```
+```css
+@import "./node_modules/toastm/style.css";
+```
 
 ## Options 📜
 
-    * **color** - primary | secondary | success | danger | warning | dark | special
-    * **text** - anything
-    * **positon** - left | center | right
+```txt
+    * color - primary | secondary | success | danger | warning | dark | special
+    * text - anything
+    * positon - left | center | right
+```
