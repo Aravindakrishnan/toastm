@@ -1,0 +1,49 @@
+@import url("https://p.typekit.net/p.css?s=1&k=rcr1opg&ht=tk&f=24537.24539.24541.24543.24545.24547.24548.30496.30497.30500.30501.39106.39110.39115&a=3835293&app=typekit&e=css");
+:root {
+  --primary: dodgerblue;
+  --secondary: grey;
+  --danger: #fd4321;
+  --warning: #fff000;
+  --special: blueviolet;
+  --success: #16ce16;
+  --dark: rgb(54, 69, 69);
+}
+.toastm {
+  position: fixed;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 400px;
+  color: #fff;
+  top: 0;
+  background: grey;
+  margin: auto;
+  transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 0 5px grey;
+  font-family: Sofia pro;
+  font-size: 20px;
+}
+
+.primary {
+  background: var(--primary);
+}
+.secondary {
+  background: var(--secondary);
+}
+.dark {
+  background: var(--dark);
+}
+.danger {
+  background: var(--danger);
+}
+.special {
+  background: var(--special);
+}
+.success {
+  background: var(--success);
+}
+
+.warning {
+  background: var(--warning);
+}
